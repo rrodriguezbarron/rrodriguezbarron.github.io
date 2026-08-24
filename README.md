@@ -1,2 +1,2 @@
 # personal-site
-Rubén Rodríguez's personal site
+Ruben Rodriguez's personal site
