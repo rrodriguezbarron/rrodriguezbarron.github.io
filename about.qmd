@@ -1,0 +1,34 @@
+---
+title: "About"
+about:
+  # Five built-in layouts: jolla, trestles, solana, marquee, broadside.
+  # Swap the value below and re-render to see each one.
+  template: trestles
+  image: images/profile.svg
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/rrodriguezbarron
+    # Uncomment to publish an email address. Worth a moment's thought first:
+    # anything here is scraped by bots. A contact form or an alias address
+    # are both reasonable alternatives.
+    # - icon: envelope
+    #   text: Email
+    #   href: mailto:you@example.com
+---
+
+PLACEHOLDER — your bio goes here.
+
+A few paragraphs about your background, what you work on, and what you're
+interested in. The `about` block in the front matter above handles the photo
+and the links; everything below it is ordinary markdown.
+
+## Background
+
+PLACEHOLDER — education, roles, anything worth stating plainly.
+
+## Interests
+
+PLACEHOLDER — what you actually spend time on.

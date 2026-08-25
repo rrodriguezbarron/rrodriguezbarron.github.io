@@ -1,0 +1,17 @@
+---
+title: "Projects"
+listing:
+  # A listing auto-generates an index of matching files. Drop a new .qmd in
+  # this folder and it appears here — no manual maintenance.
+  contents: "*.qmd"
+  type: grid
+  sort: "title"
+  fields: [title, description]
+  categories: true
+---
+
+PLACEHOLDER — a sentence or two framing this section.
+
+These pages link to each other freely. That cross-linking is the whole point:
+there is no "wiki mode" setting in Quarto, just pages that reference other
+pages using ordinary markdown links.

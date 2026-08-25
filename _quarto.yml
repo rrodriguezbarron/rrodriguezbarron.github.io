@@ -1,0 +1,81 @@
+# ---------------------------------------------------------------------------
+# Site-wide configuration.
+#
+# This file is what turns a folder of independent .qmd documents into a
+# website with shared navigation, styling, and search.
+#
+# YAML is indentation-sensitive: nesting is expressed with spaces (never
+# tabs), and a misplaced space is a syntax error. If a render fails with a
+# confusing message, check the indentation here first.
+# ---------------------------------------------------------------------------
+
+project:
+  type: website
+  output-dir: _site # compiled HTML lands here; git ignores it
+
+website:
+  title: "Ruben Rodriguez" # appears at the left of the navbar
+  description: "Personal site of Ruben Rodriguez"
+  site-url: "https://rrodriguezbarron.github.io"
+
+  # --- Top navigation bar --------------------------------------------------
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projects
+      - href: posts/index.qmd
+        text: Posts
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/rrodriguezbarron
+        aria-label: GitHub
+
+  # --- Sidebar -------------------------------------------------------------
+  # This sidebar appears only on pages listed in its `contents`, so it shows
+  # up throughout the Projects section and nowhere else. It is the skeleton
+  # of the wiki: add a page here and it joins the navigation.
+  sidebar:
+    - id: projects
+      title: "Projects"
+      style: floating
+      collapse-level: 2
+      contents:
+        - text: "Overview"
+          href: projects/index.qmd
+        - section: "Pages"
+          contents:
+            - projects/example-project.qmd
+            - projects/related-topic.qmd
+            - projects/shared-methods.qmd
+
+  # --- Search --------------------------------------------------------------
+  # Builds a JSON index at render time that the browser queries directly.
+  # No server or third-party service involved.
+  search:
+    location: navbar
+    type: overlay
+
+  page-footer:
+    left: "© 2026 Ruben Rodriguez"
+    right: "Built with [Quarto](https://quarto.org)"
+
+# --- Output format ---------------------------------------------------------
+# Applies to every page unless a page overrides it in its own front matter.
+format:
+  html:
+    theme: cosmo # one of 25 built-in themes; see quarto.org/docs/output-formats/html-themes
+    css: styles.css # loaded after the theme, so your rules win
+    toc: true # per-page table of contents
+    toc-location: right
+    anchor-sections: true # hover a heading to get a linkable anchor
+    link-external-newwindow: true
+
+# --- Code execution --------------------------------------------------------
+# `freeze: auto` caches the output of code chunks and re-runs them only when
+# the source document changes. Does nothing on pages without code.
+execute:
+  freeze: auto

@@ -1,0 +1,15 @@
+---
+title: "Posts"
+listing:
+  contents: "*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description, reading-time]
+  categories: true
+  feed: true # generates an RSS feed at posts/index.xml
+---
+
+PLACEHOLDER — a line introducing this section, or delete it.
+
+If you decide you don't want a blog, remove this folder and the `Posts` entry
+in the `navbar` block of `_quarto.yml`. Nothing else depends on it.

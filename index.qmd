@@ -1,0 +1,22 @@
+---
+title: "Ruben Rodriguez"
+---
+
+::: {.lead}
+PLACEHOLDER — one or two sentences about who you are and what this site is
+for. This is the first thing anyone reads, so it is worth rewriting a few
+times.
+:::
+
+## What's here
+
+- [**Projects**](projects/index.qmd) — interlinked pages about things I'm
+  working on and thinking about.
+- [**Posts**](posts/index.qmd) — occasional longer-form writing.
+- [**About**](about.qmd) — background and contact.
+
+---
+
+*This page is `index.qmd`. The filename matters: a web server returns
+`index.html` when someone requests a directory, so this is what visitors see
+at the site root.*

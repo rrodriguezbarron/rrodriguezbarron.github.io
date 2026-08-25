@@ -1,0 +1,32 @@
+---
+title: "Shared Methods"
+description: "PLACEHOLDER — one line, shown on the Projects index."
+categories: [placeholder, methods]
+---
+
+PLACEHOLDER — replace this page.
+
+This one stands in for a note that several other pages reference — the kind of
+page that makes a wiki more useful than a pile of separate documents.
+
+Both [Example Project](example-project.qmd) and
+[Related Topic](related-topic.qmd) point here.
+
+## Categories
+
+This page's front matter lists two categories (`placeholder`, `methods`)
+rather than one. Because `categories: true` is set on the Projects listing,
+they become clickable filters on the index page. A second, lighter way to
+group pages alongside the sidebar.
+
+## Math
+
+Inline math like $\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$ works out of the
+box, as do display equations:
+
+$$
+\hat{\beta} = (X^\top X)^{-1} X^\top y
+$$
+
+No configuration needed — MathJax is included automatically when a page
+contains math.
