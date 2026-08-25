@@ -1,21 +1,24 @@
 # ---------------------------------------------------------------------------
 # Site-wide configuration.
 #
-# This file is what turns a folder of independent .qmd documents into a
-# website with shared navigation, styling, and search.
+# This file is what turns a folder of independent .qmd documents into a website with shared navigation, styling, and search.
 #
-# YAML is indentation-sensitive: nesting is expressed with spaces (never
-# tabs), and a misplaced space is a syntax error. If a render fails with a
-# confusing message, check the indentation here first.
+# YAML is indentation-sensitive.
+# Nesting is expressed with spaces, never tabs, and a misplaced space is a syntax error.
+# If a render fails with a confusing message, check the indentation here first.
 # ---------------------------------------------------------------------------
 
 project:
   type: website
   output-dir: _site # compiled HTML lands here; git ignores it
+  # Files listed here are copied into _site even when nothing links to them.
+  # Without this the resume PDF can 404 in production while working locally.
+  resources:
+    - files/
 
 website:
-  title: "Ruben Rodriguez" # appears at the left of the navbar
-  description: "Personal site of Ruben Rodriguez"
+  title: "Rubén Rodríguez Barrón" # appears at the left of the navbar
+  description: "Personal site of Rubén Rodríguez Barrón"
   site-url: "https://rrodriguezbarron.github.io"
 
   # --- Top navigation bar --------------------------------------------------
@@ -35,9 +38,8 @@ website:
         aria-label: GitHub
 
   # --- Sidebar -------------------------------------------------------------
-  # This sidebar appears only on pages listed in its `contents`, so it shows
-  # up throughout the Projects section and nowhere else. It is the skeleton
-  # of the wiki: add a page here and it joins the navigation.
+  # This sidebar appears only on pages listed in its `contents`, so it shows up throughout the Projects section and nowhere else.
+  # It is the skeleton of the wiki: add a page here and it joins the navigation.
   sidebar:
     - id: projects
       title: "Projects"
@@ -54,13 +56,13 @@ website:
 
   # --- Search --------------------------------------------------------------
   # Builds a JSON index at render time that the browser queries directly.
-  # No server or third-party service involved.
+  # No server or third-party service is involved.
   search:
     location: navbar
     type: overlay
 
   page-footer:
-    left: "© 2026 Ruben Rodriguez"
+    left: "© 2026 Rubén Rodríguez Barrón"
     right: "Built with [Quarto](https://quarto.org)"
 
 # --- Output format ---------------------------------------------------------
@@ -74,8 +76,15 @@ format:
     anchor-sections: true # hover a heading to get a linkable anchor
     link-external-newwindow: true
 
+# --- Editor ----------------------------------------------------------------
+# Tells RStudio's visual editor to write markdown back one sentence per line.
+# Without this, opening a file in visual mode and saving would rewrap everything to a fixed column and undo the sentence-per-line formatting.
+editor:
+  markdown:
+    wrap: sentence
+
 # --- Code execution --------------------------------------------------------
-# `freeze: auto` caches the output of code chunks and re-runs them only when
-# the source document changes. Does nothing on pages without code.
+# `freeze: auto` caches the output of code chunks and re-runs them only when the source document changes.
+# It does nothing on pages without code.
 execute:
   freeze: auto

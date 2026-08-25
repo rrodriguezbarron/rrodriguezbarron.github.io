@@ -1,25 +1,24 @@
 /* ---------------------------------------------------------------------------
    Your custom styles.
 
-   This file loads AFTER the Bootstrap theme named in _quarto.yml, so anything
-   defined here overrides the theme defaults. You are only responsible for the
-   differences, not the whole design.
+   This file loads AFTER the Bootstrap theme named in _quarto.yml, so anything defined here overrides the theme defaults.
+   You are only responsible for the differences, not the whole design.
 
-   Workflow for learning: change one rule, save, and watch `quarto preview`
-   reload the page. Right-click any element in the browser and choose
-   "Inspect" to find out which rule is currently styling it.
+   Workflow for learning: change one rule, save, and watch `quarto preview` reload the page.
+   Right-click any element in the browser and choose "Inspect" to find out which rule is currently styling it.
    --------------------------------------------------------------------------- */
 
-/* Custom properties (CSS variables). Defining colors in one place means you
-   change them in one place. Reference them below with var(--name). */
+/* Custom properties (CSS variables).
+   Defining colors in one place means you change them in one place.
+   Reference them below with var(--name). */
 :root {
   --accent: #2c6e8f;
   --muted: #6c757d;
   --measure: 68ch; /* comfortable line length for reading */
 }
 
-/* Cap body text width. Long lines are genuinely harder to read; somewhere
-   around 60-75 characters is the usual recommendation. */
+/* Cap body text width.
+   Long lines are genuinely harder to read; somewhere around 60-75 characters is the usual recommendation. */
 main {
   max-width: var(--measure);
 }
@@ -31,8 +30,8 @@ main {
   color: var(--muted);
 }
 
-/* Links inside page content. The :hover pseudo-class applies only while the
-   cursor is over the element. */
+/* Links inside page content.
+   The :hover pseudo-class applies only while the cursor is over the element. */
 main a {
   color: var(--accent);
   text-decoration-thickness: 1px;

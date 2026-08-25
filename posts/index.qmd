@@ -11,5 +11,5 @@ listing:
 
 PLACEHOLDER — a line introducing this section, or delete it.
 
-If you decide you don't want a blog, remove this folder and the `Posts` entry
-in the `navbar` block of `_quarto.yml`. Nothing else depends on it.
+If you decide you don't want a blog, remove this folder and the `Posts` entry in the `navbar` block of `_quarto.yml`.
+Nothing else depends on it.

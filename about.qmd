@@ -1,34 +1,54 @@
 ---
-title: "About"
+title: "Rubén Rodríguez"
+# `pagetitle` sets the browser tab text independently of the visible heading.
+# The site title is appended automatically, so this yields "About – Rubén Rodríguez Barrón".
+# Without it the tab would read "Rubén Rodríguez – Rubén Rodríguez Barrón".
+pagetitle: "About"
 about:
   # Five built-in layouts: jolla, trestles, solana, marquee, broadside.
   # Swap the value below and re-render to see each one.
   template: trestles
-  image: images/profile.svg
+  image: images/ruben.png
   image-shape: round
   image-width: 12em
   links:
     - icon: github
       text: GitHub
       href: https://github.com/rrodriguezbarron
-    # Uncomment to publish an email address. Worth a moment's thought first:
-    # anything here is scraped by bots. A contact form or an alias address
-    # are both reasonable alternatives.
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rrodriguezbarron/
+    - icon: file-earmark-pdf
+      text: Resume
+      href: files/resume_2026_08.pdf
+    # Uncomment to publish an email address.
+    # Worth a moment's thought first: anything here is scraped by bots.
+    # A contact form or an alias address are both reasonable alternatives.
     # - icon: envelope
     #   text: Email
     #   href: mailto:you@example.com
 ---
 
-PLACEHOLDER — your bio goes here.
+## Who am I?
 
-A few paragraphs about your background, what you work on, and what you're
-interested in. The `about` block in the front matter above handles the photo
-and the links; everything below it is ordinary markdown.
+I am a PhD candidate in the Department of Political Science at the University of Chicago, focusing on American politics.
+My research lies at the intersection of religion and public opinion, with particular attention to the political behavior of American Catholics.
+My dissertation examines how Catholics’ political preferences have evolved since the Second Vatican Council and the extent to which they align with the agenda of the USCCB.
+Using a combination of historical analysis, diocesan-level studies, and survey data, I investigate how elite-mass linkages within the Church shape political outcomes.
 
-## Background
+## More about me
 
-PLACEHOLDER — education, roles, anything worth stating plainly.
+My broader research interests include the evolution of ideology and partisanship in the United States, elite-mass communication, political media, the politicization of entertainment, and the effects of polarization on governance.
+I have a strong methodological foundation, holding a Certificate in Computational Social Science and extensive training in statistical modeling, R and Python programming, and data visualization.
 
-## Interests
+Prior to entering academia, I worked in the finance industry in both executive and advisory roles, including at CEMEX and Ernst & Young.
+I also co-founded a consulting firm delivering CFO services to small and family-owned businesses.
+My teaching experience spans over a decade, ranging from university-level instruction in accounting, finance, and business ethics in Mexico to undergraduate and graduate lecturing at the University of Chicago.
+As a preceptor, I have advised theses in the MA Program in the Social Sciences (MAPSS), the Harris School of Public Policy, and the Department of Political Science.
+I have also served repeatedly as a teaching and research assistant across a variety of disciplines.
 
-PLACEHOLDER — what you actually spend time on.
+I hold a Master of Arts in Social Sciences and a master’s in political science from the University of Chicago, a master’s in professional accounting from the University of Texas at Austin, and dual bachelor’s degrees in accounting and finance from the Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), where I graduated with honors.
+
+## Personal
+
+I live in Hyde Park with my wife and two children.

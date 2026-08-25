@@ -7,9 +7,7 @@ categories: [placeholder]
 
 PLACEHOLDER — a first post, or delete this file.
 
-The `date` field in the front matter drives the sort order on the index page,
-so it isn't merely decorative. Use `YYYY-MM-DD`.
+The `date` field in the front matter drives the sort order on the index page, so it isn't merely decorative.
+Use `YYYY-MM-DD`.
 
-Posts are ordinary `.qmd` files — everything available elsewhere on the site
-works here too: R chunks, math, cross-references, and links to
-[Projects](../projects/index.qmd) pages.
+Posts are ordinary `.qmd` files — everything available elsewhere on the site works here too: R chunks, math, cross-references, and links to [Projects](../projects/index.qmd) pages.

@@ -4,30 +4,26 @@ description: "PLACEHOLDER — one line, shown on the Projects index."
 categories: [placeholder]
 ---
 
-PLACEHOLDER — replace this page entirely. It exists to demonstrate three
-mechanisms you'll use constantly.
+PLACEHOLDER — replace this page entirely.
+It exists to demonstrate three mechanisms you'll use constantly.
 
 ## 1. Linking to another page {#sec-linking}
 
 Point links at the **source** file, not the compiled HTML:
 
-> This builds on [Shared Methods](shared-methods.qmd), and connects to
-> [Related Topic](related-topic.qmd).
+> This builds on [Shared Methods](shared-methods.qmd), and connects to [Related Topic](related-topic.qmd).
 
-Quarto rewrites `.qmd` to `.html` in the output. The advantage of naming the
-source file is that Quarto checks it exists during the render — a typo becomes
-a build warning rather than a dead link a stranger finds later.
+Quarto rewrites `.qmd` to `.html` in the output.
+The advantage of naming the source file is that Quarto checks it exists during the render — a typo becomes a build warning rather than a dead link a stranger finds later.
 
 ## 2. Cross-references
 
-The heading above is tagged `{#sec-linking}`, so any page can point at it with
-`@sec-linking` and get an auto-numbered link with the correct title. See
-@sec-code below for another.
+The heading above is tagged `{#sec-linking}`, so any page can point at it with `@sec-linking` and get an auto-numbered link with the correct title.
+See @sec-code below for another.
 
 ## 3. Running R code {#sec-code}
 
-Fenced blocks marked `{r}` are executed at render time, and their output is
-embedded in the page:
+Fenced blocks marked `{r}` are executed at render time, and their output is embedded in the page:
 
 ```{r}
 #| label: demo-chunk
@@ -37,9 +33,7 @@ x <- c(4, 8, 15, 16, 23, 42)
 summary(x)
 ```
 
-Chunk options go in `#|` comments at the top of the block. Common ones:
-`echo: false` hides the code but keeps the output, `eval: false` shows the
-code without running it, `warning: false` suppresses warnings.
+Chunk options go in `#|` comments at the top of the block.
+Common ones: `echo: false` hides the code but keeps the output, `eval: false` shows the code without running it, `warning: false` suppresses warnings.
 
-Because `freeze: auto` is set in `_quarto.yml`, this chunk re-runs only when
-this file changes — not on every site render.
+Because `freeze: auto` is set in `_quarto.yml`, this chunk re-runs only when this file changes, not on every site render.
