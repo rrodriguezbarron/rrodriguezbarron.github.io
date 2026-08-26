@@ -11,6 +11,11 @@
 project:
   type: website
   output-dir: _site # compiled HTML lands here; git ignores it
+  # Only .qmd files become pages.
+  # Without this, any .md file in the project — NOTES.md, for instance — is
+  # rendered into a public page. Quarto special-cases README.md but nothing else.
+  render:
+    - "**/*.qmd"
   # Files listed here are copied into _site even when nothing links to them.
   # Without this the resume PDF can 404 in production while working locally.
   # Scoped to PDFs so the Word original never reaches the published site.
