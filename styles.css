@@ -1,0 +1,59 @@
+/* ---------------------------------------------------------------------------
+   Your custom styles.
+
+   This file loads AFTER the Bootstrap theme named in _quarto.yml, so anything defined here overrides the theme defaults.
+   You are only responsible for the differences, not the whole design.
+
+   Workflow for learning: change one rule, save, and watch `quarto preview` reload the page.
+   Right-click any element in the browser and choose "Inspect" to find out which rule is currently styling it.
+   --------------------------------------------------------------------------- */
+
+/* Custom properties (CSS variables).
+   Defining colors in one place means you change them in one place.
+   Reference them below with var(--name). */
+:root {
+  --accent: #2c6e8f;
+  --muted: #6c757d;
+  --measure: 68ch; /* comfortable line length for reading */
+}
+
+/* Cap body text width.
+   Long lines are genuinely harder to read; somewhere around 60-75 characters is the usual recommendation. */
+main {
+  max-width: var(--measure);
+}
+
+/* The .lead class used on the homepage. */
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* Links inside page content.
+   The :hover pseudo-class applies only while the cursor is over the element. */
+main a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+main a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Give headings a little room above so sections breathe. */
+main h2 {
+  margin-top: 2rem;
+}
+
+/* Justified prose.
+   Applied by wrapping content in a ::: {.justified} fenced div, so it affects
+   only the pages that opt in rather than the whole site.
+   Only paragraphs are justified; headings and lists are left alone.
+   `hyphens: auto` matters here: justifying without it stretches word spacing
+   into visible white "rivers" running down a narrow column. */
+.justified p {
+  text-align: justify;
+  hyphens: auto;
+}

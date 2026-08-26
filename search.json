@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I have taught for over a decade, in Spanish and English, across accounting, finance, business ethics, and the social sciences."
+  },
+  {
+    "objectID": "teaching.html#university-of-chicago",
+    "href": "teaching.html#university-of-chicago",
+    "title": "Teaching",
+    "section": "University of Chicago",
+    "text": "University of Chicago\nInstructor of Record  Ethics in Action — Chicago Scholars Program, Summer 2026\nGraduate Student Lecturer  Social Science Inquiry II — the College, 2024–25\nPreceptor  MA theses, Master of Arts Program in the Social Sciences (MAPSS)  BA theses, Department of Political Science  BA theses, Harris School of Public Policy\nTeaching Assistant\n\nComputing for the Social Sciences — Prof. Sabrina Nardin, Summer 2026\nThe Intelligible Self — Prof. Eric Oliver, Spring 2026\nIntroduction to American Politics — Prof. Ruth Bloch Rubin, Fall 2025\nHabits of a Free Mind — Prof. Pamela Paresky, Spring 2020\nInternational Political Economy — Prof. Robert Gulotty, Spring 2020\nIntroduction to Machine Learning — Prof. Philip Waggoner, Winter 2020\nQuantitative Security — Prof. Paul Poast, Winter 2020\nComputing for the Social Sciences — Prof. Benjamin Soltoff, Fall 2019\nIntroduction to American Politics — Prof. John Mark Hansen, Fall 2019"
+  },
+  {
+    "objectID": "teaching.html#previous-appointments",
+    "href": "teaching.html#previous-appointments",
+    "title": "Teaching",
+    "section": "Previous appointments",
+    "text": "Previous appointments\nVALIA — Monterrey, Mexico, 2016–2020  Professor. Professional Ethics, Business Ethics program.\nInstituto Tecnológico y de Estudios Superiores de Monterrey (ITESM) — Monterrey, Mexico, 2013–2016  Associate Professor. International Accounting, Finance and Accounting program. Redesigned the course to incorporate ethics case studies.\nUniversidad de Monterrey — Monterrey, Mexico, 2014–2015  Associate Professor. Corporate Finance, Accounting and Finance programs. Redesigned the course to incorporate ethics case studies and a finance simulator.\nPrepaNet, Sistema Tecnológico de Monterrey — Tampico, Mexico, 2008–2012  Instructor. Online courses in the social sciences department."
+  },
+  {
+    "objectID": "research/conservatism-scale.html",
+    "href": "research/conservatism-scale.html",
+    "title": "A Scale to Measure Social and Economic Conservatism",
+    "section": "",
+    "text": "Researchers across several fields make extensive use of the concept of ideology. Yet despite its ubiquity, ideology continues to be measured with scales that carry substantial conceptual and methodological problems. I propose a new scale for identifying social and economic conservatism that treats the two as distinct dimensions rather than points on a single continuum. The scale measures conservatism directly rather than through evaluative proxies, requires no specialized political knowledge of respondents, and is shorter than traditional instruments while retaining enough items to avoid truncation. Because it draws on ANES items rather than ad hoc measures such as feeling thermometers, it also supports comparison across decades. Replicating past research on affective polarization, I show the scale generates important complementary insights for researchers studying ideology.\n\nThesis. Master of Arts Program in the Social Sciences, University of Chicago.\nPresented. American Politics Workshop, University of Chicago — Fall 2019."
+  },
+  {
+    "objectID": "research/bishop-ideology.html",
+    "href": "research/bishop-ideology.html",
+    "title": "Ideology and Priorities in an Organizational Hierarchy: Evidence from US Catholic Bishops",
+    "section": "",
+    "text": "Scholarship on elite ideology has relied on roll-call votes, campaign contributions, and self-placement. Little is known about elites who leave none of these. I present the first ideological measure of U.S. Catholic bishops, estimated with a Bayesian Bradley-Terry model from 1,283 pairwise comparisons elicited from seminarians, clergy, and other informed Catholic elites. The scores place 277 bishops on the same five-point scale priests use for themselves in the National Study of Catholic Priests. The American Catholic hierarchy is concentrated, not polarized. Its perceived spread is a fifth of the priests’. Twenty-seven bishops in the tails carry four fifths of the variance. Appointing pope, Roman education, rite, rank, religious order, and the party of the U.S. president at appointment all fail to sort bishops. No bishop score correlates above 0.11 with forty-five measures of priests’ priorities, ministries, and conduct. An elite this unpolarized is one whose cues theory expects to be weak.\n\nPresented.\n\n“Ideological Variation Among U.S. Catholic Bishops: Scores, Networks, and Electoral Implications” — Midwestern Political Science Association, Chicago, IL, Spring 2026\n“The Political Ideology of Catholic Bishops” — Research and Analysis in the Sociology of Religion, University of Notre Dame, Fall 2025"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rubén Rodríguez Barrón",
+    "section": "",
+    "text": "I am a PhD candidate in the Department of Political Science at the University of Chicago, focusing on American politics. My research lies at the intersection of religion and public opinion, with particular attention to the political behavior of American Catholics. My dissertation examines how Catholics’ political preferences have evolved since the Second Vatican Council and the extent to which they align with the agenda of the USCCB. Using a combination of historical analysis, diocesan-level studies, and survey data, I investigate how elite-mass linkages within the Church shape political outcomes.\nMy broader research interests include the evolution of ideology and partisanship in the United States, elite-mass communication, political media, the politicization of entertainment, and the effects of polarization on governance. I have a strong methodological foundation, holding a Certificate in Computational Social Science and extensive training in statistical modeling, R and Python programming, and data visualization.\nPrior to entering academia, I worked in the finance industry in both executive and advisory roles, including at CEMEX and Ernst & Young. I also co-founded a consulting firm delivering CFO services to small and family-owned businesses. My teaching experience spans over a decade, ranging from university-level instruction in accounting, finance, and business ethics in Mexico to undergraduate and graduate lecturing at the University of Chicago. As a preceptor, I have advised theses in the MA Program in the Social Sciences (MAPSS), the Harris School of Public Policy, and the Department of Political Science. I have also served repeatedly as a teaching and research assistant across a variety of disciplines.\nI hold a Master of Arts in Social Sciences and a master’s in political science from the University of Chicago, a master’s in professional accounting from the University of Texas at Austin, and dual bachelor’s degrees in accounting and finance from the Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), where I graduated with honors.\nI live in Hyde Park with my wife and two children.\n\nMMXXVI"
+  },
+  {
+    "objectID": "research/catholic-electoral-distinctiveness.html",
+    "href": "research/catholic-electoral-distinctiveness.html",
+    "title": "The Decline of Catholic Electoral Distinctiveness in U.S. Presidential Elections, 1948–2024",
+    "section": "",
+    "text": "Catholics were once among the most reliably Democratic constituencies in American politics. Using the American National Election Studies Cumulative File, I track Catholic presidential vote choice across twenty elections from 1948 to 2024. The Catholic Democratic advantage peaked in 1960, narrowed steadily, and reversed: by 2024 Catholics were slightly less Democratic than the electorate as a whole. Blinder-Oaxaca decompositions and nested logistic models show that party identification is the primary mediator of this decline, with ideology and issue attitudes absorbing much of what remains. Affect toward social groups mediates further, and the residual Catholic coefficient turns negative once it is controlled. The aggregate trend conceals a divided electorate: white Catholics have moved Republican while Hispanic Catholics have not, observant Catholics have moved right while nominal Catholics have not, and generational replacement compounds both. Catholics remain cross-pressured, culturally conservative and economically progressive in a way that maps cleanly onto neither party. A multilevel model with partial pooling finds no stable, time-invariant Catholic effect on Democratic voting. Catholic electoral exceptionalism is a historically bounded phenomenon rather than a permanent feature of American politics.\n\nPresented.\n\n“The Politics of American Catholics” — New Directions in American History, University of Chicago, Spring 2026"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My work examines the political behavior of American Catholics, with attention to how the preferences of Catholic laity and the agenda of the Church hierarchy relate to one another. I combine historical analysis, diocesan-level study, and survey data.\n\n\n\n\n\n\n\n\n\n\nIdeology and Priorities in an Organizational Hierarchy: Evidence from US Catholic Bishops\n\n\n\nideal point estimation\n\nelite ideology\n\nCatholic\n\n\n\nJob market paper — the first ideal point estimates for U.S. Catholic bishops\n\n\n\n\n\n2026\n\n\n\n\n\n\n\nThe Decline of Catholic Electoral Distinctiveness in U.S. Presidential Elections, 1948–2024\n\n\n\nCatholic\n\n\n\nWorking paper — Catholic presidential vote choice across twenty elections\n\n\n\n\n\n2026\n\n\n\n\n\n\n\nA Scale to Measure Social and Economic Conservatism\n\n\n\nfactor analysis\n\n\n\nMA thesis — a two-dimensional alternative to the standard seven-point ideology scale\n\n\n\n\n\n2019\n\n\n\n\n\nNo matching items"
+  }
+]
