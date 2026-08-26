@@ -46,3 +46,14 @@ main a:hover {
 main h2 {
   margin-top: 2rem;
 }
+
+/* Justified prose.
+   Applied by wrapping content in a ::: {.justified} fenced div, so it affects
+   only the pages that opt in rather than the whole site.
+   Only paragraphs are justified; headings and lists are left alone.
+   `hyphens: auto` matters here: justifying without it stretches word spacing
+   into visible white "rivers" running down a narrow column. */
+.justified p {
+  text-align: justify;
+  hyphens: auto;
+}

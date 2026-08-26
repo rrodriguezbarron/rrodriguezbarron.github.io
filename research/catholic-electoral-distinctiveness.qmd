@@ -1,0 +1,24 @@
+---
+title: "The Decline of Catholic Electoral Distinctiveness in U.S. Presidential Elections, 1948–2024"
+description: "Working paper — Catholic presidential vote choice across twenty elections"
+date: "2026-05-01"
+categories: [Catholic]
+---
+
+::: {.justified}
+
+Catholics were once among the most reliably Democratic constituencies in American politics.
+Using the American National Election Studies Cumulative File, I track Catholic presidential vote choice across twenty elections from 1948 to 2024.
+The Catholic Democratic advantage peaked in 1960, narrowed steadily, and reversed: by 2024 Catholics were slightly less Democratic than the electorate as a whole.
+Blinder-Oaxaca decompositions and nested logistic models show that party identification is the primary mediator of this decline, with ideology and issue attitudes absorbing much of what remains.
+Affect toward social groups mediates further, and the residual Catholic coefficient turns negative once it is controlled.
+The aggregate trend conceals a divided electorate: white Catholics have moved Republican while Hispanic Catholics have not, observant Catholics have moved right while nominal Catholics have not, and generational replacement compounds both.
+Catholics remain cross-pressured, culturally conservative and economically progressive in a way that maps cleanly onto neither party.
+A multilevel model with partial pooling finds no stable, time-invariant Catholic effect on Democratic voting.
+Catholic electoral exceptionalism is a historically bounded phenomenon rather than a permanent feature of American politics.
+
+:::
+
+**Presented.**
+
+- "The Politics of American Catholics" — New Directions in American History, University of Chicago, Spring 2026

@@ -13,8 +13,9 @@ project:
   output-dir: _site # compiled HTML lands here; git ignores it
   # Files listed here are copied into _site even when nothing links to them.
   # Without this the resume PDF can 404 in production while working locally.
+  # Scoped to PDFs so the Word original never reaches the published site.
   resources:
-    - files/
+    - files/*.pdf
 
 website:
   title: "Rubén Rodríguez Barrón" # appears at the left of the navbar
@@ -22,37 +23,26 @@ website:
   site-url: "https://rrodriguezbarron.github.io"
 
   # --- Top navigation bar --------------------------------------------------
+  # The CV is a direct link to the PDF rather than a page, following Molly's
+  # pattern: for an academic audience it is among the most-clicked items.
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: projects/index.qmd
-        text: Projects
-      - href: posts/index.qmd
-        text: Posts
-      - href: about.qmd
-        text: About
+      - href: research/index.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: files/resume_2026_08.pdf
+        text: CV
+        target: _blank
     right:
       - icon: github
         href: https://github.com/rrodriguezbarron
         aria-label: GitHub
-
-  # --- Sidebar -------------------------------------------------------------
-  # This sidebar appears only on pages listed in its `contents`, so it shows up throughout the Projects section and nowhere else.
-  # It is the skeleton of the wiki: add a page here and it joins the navigation.
-  sidebar:
-    - id: projects
-      title: "Projects"
-      style: floating
-      collapse-level: 2
-      contents:
-        - text: "Overview"
-          href: projects/index.qmd
-        - section: "Pages"
-          contents:
-            - projects/example-project.qmd
-            - projects/related-topic.qmd
-            - projects/shared-methods.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rrodriguezbarron/
+        aria-label: LinkedIn
 
   # --- Search --------------------------------------------------------------
   # Builds a JSON index at render time that the browser queries directly.

@@ -1,0 +1,21 @@
+---
+title: "A Scale to Measure Social and Economic Conservatism"
+description: "MA thesis — a two-dimensional alternative to the standard seven-point ideology scale"
+date: "2019-10-01"
+categories: [factor analysis]
+---
+
+::: {.justified}
+
+Researchers across several fields make extensive use of the concept of ideology.
+Yet despite its ubiquity, ideology continues to be measured with scales that carry substantial conceptual and methodological problems.
+I propose a new scale for identifying social and economic conservatism that treats the two as distinct dimensions rather than points on a single continuum.
+The scale measures conservatism directly rather than through evaluative proxies, requires no specialized political knowledge of respondents, and is shorter than traditional instruments while retaining enough items to avoid truncation.
+Because it draws on ANES items rather than ad hoc measures such as feeling thermometers, it also supports comparison across decades.
+Replicating past research on affective polarization, I show the scale generates important complementary insights for researchers studying ideology.
+
+:::
+
+**Thesis.** Master of Arts Program in the Social Sciences, University of Chicago.
+
+**Presented.** American Politics Workshop, University of Chicago — Fall 2019.

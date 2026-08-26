@@ -1,0 +1,61 @@
+---
+title: "Teaching"
+---
+
+::: {.justified}
+
+I have taught for over a decade, in Spanish and English, across accounting, finance, business ethics, and the social sciences.
+
+:::
+
+## University of Chicago
+
+**Instructor of Record**
+<br />
+Ethics in Action — Chicago Scholars Program, Summer 2026
+
+**Graduate Student Lecturer**
+<br />
+Social Science Inquiry II — the College, 2024–25
+
+**Preceptor**
+<br />
+MA theses, Master of Arts Program in the Social Sciences (MAPSS)
+<br />
+BA theses, Department of Political Science
+<br />
+BA theses, Harris School of Public Policy
+
+**Teaching Assistant**
+
+- Computing for the Social Sciences — Prof. Sabrina Nardin, Summer 2026
+- The Intelligible Self — Prof. Eric Oliver, Spring 2026
+- Introduction to American Politics — Prof. Ruth Bloch Rubin, Fall 2025
+- Habits of a Free Mind — Prof. Pamela Paresky, Spring 2020
+- International Political Economy — Prof. Robert Gulotty, Spring 2020
+- Introduction to Machine Learning — Prof. Philip Waggoner, Winter 2020
+- Quantitative Security — Prof. Paul Poast, Winter 2020
+- Computing for the Social Sciences — Prof. Benjamin Soltoff, Fall 2019
+- Introduction to American Politics — Prof. John Mark Hansen, Fall 2019
+
+---
+
+## Previous appointments
+
+**VALIA** — Monterrey, Mexico, 2016–2020
+<br />
+Professor. Professional Ethics, Business Ethics program.
+
+**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** — Monterrey, Mexico, 2013–2016
+<br />
+Associate Professor. International Accounting, Finance and Accounting program.
+Redesigned the course to incorporate ethics case studies.
+
+**Universidad de Monterrey** — Monterrey, Mexico, 2014–2015
+<br />
+Associate Professor. Corporate Finance, Accounting and Finance programs.
+Redesigned the course to incorporate ethics case studies and a finance simulator.
+
+**PrepaNet, Sistema Tecnológico de Monterrey** — Tampico, Mexico, 2008–2012
+<br />
+Instructor. Online courses in the social sciences department.

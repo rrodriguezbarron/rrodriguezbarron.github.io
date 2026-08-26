@@ -1,0 +1,23 @@
+---
+title: "Research"
+listing:
+  # Every .qmd in this folder becomes an entry automatically.
+  # Add a new file and it appears here, sorted newest first.
+  contents: "*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [title, description, categories, date]
+  categories: true
+  # Year only. Your CV records seasons, not months, so the dates in each file's
+  # front matter exist to control sort order rather than to be displayed —
+  # showing a month would invent precision you never specified.
+  # The season appears in each entry's `description` instead.
+  date-format: "YYYY"
+---
+
+::: {.justified}
+
+My work examines the political behavior of American Catholics, with attention to how the preferences of Catholic laity and the agenda of the Church hierarchy relate to one another.
+I combine historical analysis, diocesan-level study, and survey data.
+
+:::
