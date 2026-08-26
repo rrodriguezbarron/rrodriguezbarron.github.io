@@ -1,0 +1,27 @@
+---
+title: "Preferment Without Partisanship: Ideology and Connectivity in the U.S. Catholic Episcopal Network"
+description: "Work in progress — ideology and network position among U.S. Catholic bishops"
+date: "2026-07-01"
+categories: [Catholic, elite ideology, ideal point estimation]
+---
+
+::: {.justified}
+
+Social Network Analysis has been proposed as a way into the cultures of preferment, patronage, and reciprocal obligation that shape the Catholic episcopate.
+Bullivant and Sadewo's exploratory study of the Catholic Bishops' Conference of England and Wales and the United States Conference of Catholic Bishops called for extensions linking network position to other attributes of bishops.
+This project takes up that invitation.
+I attach ideal point estimates for U.S. Catholic bishops to their directed co-citation network, restricting the analysis to the subgraph of bishops for whom scores are available.
+Connectivity does not track ideology.
+The rank correlation between total degree and ideology is weak and does not survive scrutiny: the Pearson correlation points the other way, degree takes few distinct values across the matched network, and mean ideology is flat across degree bands.
+Splitting by direction locates what little signal there is in outdegree rather than indegree, on the coarser of the two measures.
+Whatever organizes this network — geography, seniority, committee service — it does not appear to be left-right ideology, and there is no evidence of ideologically sorted cliques.
+
+:::
+
+**Status.** Work in progress, actively under development.
+
+**Data.** Network data from Bullivant and Sadewo, "Power, Preferment, and Patronage: An Exploratory Study of Catholic Bishops and Social Networks."
+Ideal point estimates from [Ideology and Priorities in an Organizational Hierarchy](bishop-ideology.qmd).
+
+<!-- PLACEHOLDER — add match coverage figures, the network figure, and a links
+     block once the analysis is settled. -->
