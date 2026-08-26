@@ -20,6 +20,17 @@ An elite this unpolarized is one whose cues theory expects to be weak.
 
 :::
 
+![Distribution of bishops' perceived ideology.](../images/fig_score_distribution.png)
+
+::: {.justified}
+
+*Note.* Perceived conservatism for 277 bishops, on the same five-point scale priests use for themselves in the National Study of Catholic Priests.
+The dashed line marks the mean, 3.36.
+Almost the entire hierarchy falls between 3 and 4, with only a scattering of bishops in either tail.
+This is the concentration the paper documents: a spread roughly a fifth of the priests' own.
+
+:::
+
 **Presented.**
 
 - "Ideological Variation Among U.S. Catholic Bishops: Scores, Networks, and Electoral Implications" — Midwestern Political Science Association, Chicago, IL, Spring 2026
