@@ -75,13 +75,14 @@ Use `styles.css` for finer adjustments.
 
 ### Update the CV
 
-Put the new PDF in `files/`, then update the filename in **two places**:
+Export the new version over `files/Rodriguez_Barron_CV.pdf`, keeping that exact name, and do the same for the `.docx`.
+No links need to change.
 
-- `_quarto.yml` — the navbar CV entry
-- `index.qmd` — the links block
+The filename appears in **two places**, the navbar entry in `_quarto.yml` and the links block in `index.qmd`.
+If the name ever changes, update both, or one of them becomes a dead link.
 
-Missing one leaves a dead link.
-Naming the file plainly `resume.pdf` would remove this trap permanently.
+Before publishing, check the PDF for a phone number or personal email.
+Anything in it is public once it is pushed.
 
 ### Change the photo
 

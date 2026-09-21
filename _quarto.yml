@@ -38,7 +38,7 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: files/resume_2026_08.pdf
+      - href: files/Rodriguez_Barron_CV.pdf
         text: CV
         target: _blank
     right:

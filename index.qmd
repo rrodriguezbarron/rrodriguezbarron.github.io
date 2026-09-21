@@ -11,7 +11,7 @@ about:
   links:
     - icon: file-earmark-pdf
       text: CV
-      href: files/resume_2026_08.pdf
+      href: files/Rodriguez_Barron_CV.pdf
     - icon: github
       text: GitHub
       href: https://github.com/rrodriguezbarron
