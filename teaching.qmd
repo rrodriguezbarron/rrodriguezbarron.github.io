@@ -4,21 +4,74 @@ title: "Teaching"
 
 ::: {.justified}
 
-I have taught for over a decade, in Spanish and English, across accounting, finance, business ethics, and the social sciences.
+I have taught for almost 20 years, in two countries, across business, ethics, and the social sciences, to students ranging from first-generation high schoolers to master's candidates.
+Throughout these experiences the objective has not changed: to form men and women for others.
+My courses rest on three pillars — skill development, practical application, and ethical reflection — and an ordinary class session covers all three.
+I want my students to leave my classroom not only capable of performing technically difficult work, but also with a sense of what that capability is for and whom it is answerable to.
 
 :::
 
-## University of Chicago
+::: {.justified}
 
-**Instructor of Record**
-<br />
-Ethics in Action — Chicago Scholars Program, Summer 2026
+## Ethics in Action
 
-**Graduate Student Lecturer**
-<br />
-Social Science Inquiry II — the College, 2024–25
+*Collegiate Scholars Program, University of Chicago — Instructor of Record, Summer 2026*
 
-**Preceptor**
+A course in applied ethics designed from scratch for high-achieving high school students on the threshold of university, most of them the first in their families to get there.
+It moves deliberately across cases in business, technology, society, and government, so that ethical reasoning cannot be filed under a single domain and left there.
+It is taught at the rigor of a College core course rather than as a preview of one.
+
+[Syllabus](files/ethics-in-action-syllabus.pdf)
+
+## Social Science Inquiry II
+
+*The College, University of Chicago — Graduate Student Lecturer, 2024–25*
+
+Statistics and research design, the methods course in the College's social sciences core sequence.
+Students spend the first six weeks on structured R problem sets and the last three on a self-directed project, so that by the time they choose a question the tools are no longer the obstacle.
+Sessions alternate between lecture, guided discussion, and hands-on workshop, and every technique is anchored to a policy or organizational question someone would actually want answered.
+
+[Syllabus](files/ssi-syllabus.pdf) · [Student evaluations](files/ssi-2025-evaluations.pdf)
+
+## Professional Ethics · Fundamentals of Ethics
+
+*VALIA, Monterrey — Professor, 2016–2023*
+
+A certificate program in business ethics serving roughly four hundred students drawn from five universities in Monterrey.
+Most students work, which is where the course gets tested: the cases they bring from their own jobs are harder than the ones in the casebook.
+I kept teaching here through the pandemic and through a doctorate in another country.
+
+[Evaluation reports](files/valia-evaluations.pdf)
+
+## Corporate Finance
+
+*Universidad de Monterrey — Associate Professor, 2014–2015*
+
+Students evaluated real investment pitches I had received as an investor, and I told them which ones I funded and why.
+I redesigned the course to build ethics cases and a finance simulator into the regular coursework.
+
+## International Accounting
+
+*Tec de Monterrey (ITESM) — Associate Professor, 2013–2016*
+
+The last of eight accounting courses and taken only by accounting majors.
+I redesigned it to integrate ethics cases, and students learned accrual basis by reading actual invoices and bank statements rather than textbook exhibits.
+
+[Institutional ranking, Fall 2013](files/itesm-2013-ranking.pdf)
+
+## Introduction to Computing · English as a Second Language · Social Science Research Methods
+
+*PrepaNet, Tec de Monterrey (ITESM), Tampico — Instructor, 2008–2012*
+
+PrepaNet is Tec de Monterrey's social program, founded in 2004, offering a complete high school education to young people and adults for whom finishing one had otherwise been out of reach.
+I taught three courses in Tampico to students earning their degree alongside work and family obligations, first in person and later online as the program moved to a fully remote format.
+It is the teaching that most shaped how I think about access: what stood between those students and a diploma was never ability.
+
+:::
+
+## Advising
+
+**Preceptor**, University of Chicago
 <br />
 MA theses, Master of Arts Program in the Social Sciences (MAPSS)
 <br />
@@ -26,7 +79,7 @@ BA theses, Department of Political Science
 <br />
 BA theses, Harris School of Public Policy
 
-**Teaching Assistant**
+## Teaching assistantships
 
 - Computing for the Social Sciences — Prof. Sabrina Nardin, Summer 2026
 - The Intelligible Self — Prof. Eric Oliver, Spring 2026
@@ -40,22 +93,9 @@ BA theses, Harris School of Public Policy
 
 ---
 
-## Previous appointments
+::: {.justified}
 
-**VALIA** — Monterrey, Mexico, 2016–2020
-<br />
-Professor. Professional Ethics, Business Ethics program.
+Translations of selected student comments, together with evaluation summaries across these courses, appear in my [evidence of teaching effectiveness](files/teaching-effectiveness.pdf).
+Evaluations from Mexico were administered in Spanish; originals are available on request.
 
-**Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)** — Monterrey, Mexico, 2013–2016
-<br />
-Associate Professor. International Accounting, Finance and Accounting program.
-Redesigned the course to incorporate ethics case studies.
-
-**Universidad de Monterrey** — Monterrey, Mexico, 2014–2015
-<br />
-Associate Professor. Corporate Finance, Accounting and Finance programs.
-Redesigned the course to incorporate ethics case studies and a finance simulator.
-
-**PrepaNet, Sistema Tecnológico de Monterrey** — Tampico, Mexico, 2008–2012
-<br />
-Instructor. Online courses in the social sciences department.
+:::
